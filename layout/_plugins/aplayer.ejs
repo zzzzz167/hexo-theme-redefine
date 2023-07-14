@@ -1,3 +1,19 @@
 <div id="aplayer"></div>
 <%- renderJS('js/libs/APlayer.min.js') %>
-<%- renderJS('js/plugins/aplayer.js') %>
+<% if (theme.plugins.AMeting.enable) { %>
+    <meting-js 
+        server=<%= theme.plugins.AMeting.server %>
+        type=<%= theme.plugins.AMeting.type %>
+        id=<%= theme.plugins.AMeting.id %>
+        fixed="true" 
+        autoplay="false"
+        loop="all"
+        order="random"
+        preload="auto"
+        list-folded="ture"
+        list-max-height="500px"
+        lrc-type="1">
+    </meting-js>
+<% } else { %>
+    <%- renderJS('js/plugins/aplayer.js') %>
+<% } %>

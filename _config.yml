@@ -363,7 +363,7 @@ plugins:
     enable: false # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
-    enable: false # Whether to enable
+    enable: true # Whether to enable
     type: fixed # fixed, mini
     audios:
       - name: # audio name
@@ -379,6 +379,18 @@ plugins:
   mermaid:
     enable: false # enable mermaid or not
     version: "9.3.0" # default v9.3.0
+
+  AMeting:
+  # 播放器设置
+  # api: 播放器所用api接口
+  # server: 音乐来源
+  # type: 音乐类型
+  # id: 歌单 | 歌曲id
+    enable: true
+    api: 'https://music-api-meting-api-englchqedl.cn-hangzhou.fcapp.run/api'
+    server: "netease"
+    type: "playlist"
+    id: "5398660840"
 # PLUGINS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 

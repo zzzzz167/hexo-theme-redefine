@@ -14,6 +14,7 @@
 
 Hexo Theme Redefine source code is based on [hexo-theme-keep](https://github.com/XPoet/hexo-theme-keep). Redefine Theme optimized its style and added useful writing modules and plugins. Also, you can customize many things in this theme.
 
+In this fork, I add Meting and Meting-tag.
 
 
 
@@ -104,7 +105,7 @@ $ npm install hexo-theme-redefine@latest
 Another method is by **git clone**
 
 ```sh
-$ git clone https://github.com/EvanNotFound/hexo-theme-redefine.git themes/redefine
+$ git clone https://github.com/zzzzz167/hexo-theme-redefine.git themes/redefine
 ```
 
 
